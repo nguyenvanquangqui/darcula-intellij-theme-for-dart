@@ -1,0 +1,34 @@
+{
+	"name": "Darcula IntelliJ Theme for Dart",
+	"colors": {
+		"editor.background": "#313131",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+	},
+	"analysisServerHighlighting": true,
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"string": "#749361",
+		"keyword": "#D3852E",
+		"property": "#A380B5",
+		"*.static": {
+			"fontStyle": "italic",
+		},
+		"method.static": {
+			"foreground": "#FFCE70",
+		},
+		"method.declaration.instance": "#FFCE70",
+		"*.constructor": "#FFCE70",
+		"annotation": "#C2BF03",
+		"property.annotation": "#EEFFFF",
+	},
+	"tokenColors": [
+		{
+			"scope": "constant.language.dart",
+			"settings": {
+				"foreground": "#D3852E"
+			}
+		}
+	],
+}
