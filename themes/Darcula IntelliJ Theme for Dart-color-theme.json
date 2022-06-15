@@ -674,7 +674,8 @@
 		"*": "#B2BFCE",
 		"string": "#749361",
 		"keyword": "#D3852E",
-		"property": "#A380B5",
+		"property.declaration.instance": "#A380B5",
+		"property.instance": "#A380B5",
 		"*.static": {
 			"fontStyle": "italic",
 		},
