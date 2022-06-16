@@ -675,6 +675,7 @@
 		"string": "#749361",
 		"keyword": "#D3852E",
 		"property.declaration.instance": "#A380B5",
+		"property.declaration.static": "#A380B5",
 		"property.instance": "#A380B5",
 		"*.static": {
 			"fontStyle": "italic",
@@ -683,6 +684,7 @@
 			"foreground": "#FFCE70",
 		},
 		"method.declaration.instance": "#FFCE70",
+		"method.instance": "#FFCE70",
 		"*.constructor": "#FFCE70",
 		"annotation": "#C2BF03",
 		"property.annotation": "#EEFFFF",
