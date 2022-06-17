@@ -8,7 +8,6 @@
 	},
 	"analysisServerHighlighting": true,
 	"semanticHighlighting": true,
-
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -95,7 +94,6 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
@@ -130,7 +128,6 @@
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
-				"constant.character",
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
@@ -143,7 +140,6 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -304,15 +300,6 @@
 			"name": "Regular Expressions",
 			"scope": [
 				"string.regexp"
-			],
-			"settings": {
-				"foreground": "#89DDFF"
-			}
-		},
-		{
-			"name": "Escape Characters",
-			"scope": [
-				"constant.character.escape"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -559,7 +546,10 @@
 			}
 		},
 		{
-			"scope": ["constant.language.boolean.yaml", "constant.numeric.integer.yaml"],
+			"scope": [
+				"constant.language.boolean.yaml",
+				"constant.numeric.integer.yaml"
+			],
 			"settings": {
 				"foreground": "#B2BFCE"
 			}
@@ -644,6 +634,17 @@
 			}
 		},
 		{
+			"scope": [
+				"variable.parameter",
+				"variable.other",
+				"entity.name.type.class",
+				"method.instance",
+			],
+			"settings": {
+				"foreground": "#B2BFCE",
+			}
+		},
+		{
 			"scope": "variable.language.dart",
 			"settings": {
 				"foreground": "#D3852E",
@@ -651,8 +652,18 @@
 		},
 		{
 			"scope": [
+				"string.interpolated",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#749361",
+			}
+		},
+		{
+			"scope": [
 				"punctuation.comma.dart",
 				"punctuation.terminator.dart",
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#D3852E",
@@ -664,19 +675,20 @@
 				"other.source.dart",
 				"keyword.operator",
 				"punctuation.dot.dart",
+				"entity.name.type.enum",
+				"entity.name.function",
 			],
 			"settings": {
 				"foreground": "#B2BFCE",
 			}
-		}
+		},
 	],
 	"semanticTokenColors": {
-		"*": "#B2BFCE",
-		"string": "#749361",
 		"keyword": "#D3852E",
 		"property.declaration.instance": "#A380B5",
 		"property.declaration.static": "#A380B5",
 		"property.instance": "#A380B5",
+		"property.static": "#A380B5",
 		"*.static": {
 			"fontStyle": "italic",
 		},
@@ -684,10 +696,9 @@
 			"foreground": "#FFCE70",
 		},
 		"method.declaration.instance": "#FFCE70",
-		"method.instance": "#FFCE70",
+		"function.declaration.static": "#FFCE70",
 		"*.constructor": "#FFCE70",
 		"annotation": "#C2BF03",
-		"property.annotation": "#EEFFFF",
 		"enumMember": "#A380B5",
 		"number": "#73A0C5",
 		"boolean": "#D3852E",
