@@ -695,6 +695,7 @@
 		"method.static": {
 			"foreground": "#FFCE70",
 		},
+		"*.interpolation":"#B2BFCE",
 		"method.declaration.instance": "#FFCE70",
 		"function.declaration.static": "#FFCE70",
 		"*.constructor": "#FFCE70",
