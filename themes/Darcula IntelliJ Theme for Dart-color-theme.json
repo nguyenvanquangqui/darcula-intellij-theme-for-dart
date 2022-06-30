@@ -675,7 +675,7 @@
 				"other.source.dart",
 				"keyword.operator",
 				"punctuation.dot.dart",
-				"entity.name.type.enum",
+				"entity.name.type",
 				"entity.name.function",
 			],
 			"settings": {
