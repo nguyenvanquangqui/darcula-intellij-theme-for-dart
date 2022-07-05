@@ -663,7 +663,8 @@
 			"scope": [
 				"punctuation.comma.dart",
 				"punctuation.terminator.dart",
-				"constant.character"
+				"constant.character",
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#D3852E",
@@ -675,7 +676,8 @@
 				"other.source.dart",
 				"keyword.operator",
 				"punctuation.dot.dart",
-				"entity.name.type",
+				"entity.name.type.enum",
+				"entity.name.type.class",
 				"entity.name.function",
 			],
 			"settings": {
